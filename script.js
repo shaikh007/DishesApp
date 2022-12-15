@@ -28,7 +28,6 @@ searchBtn.addEventListener("click", () => {
                         measure = myMeal[`strMeasure` + count];
                         count += 1;
                         ingredients.push(`${measure} ${ingredient}`);
-                        // console.log(ingredient, measure);
                     }
                 }
                 console.log(ingredients);
